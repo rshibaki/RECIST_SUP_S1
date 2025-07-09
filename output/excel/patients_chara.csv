@@ -1,0 +1,101 @@
+patients_id,project_id,kobayashi,ano_date,start_date,final_date,"sex(female:0, male:1)",birth_date,ecog_ps,cancer_type,shibaki_cancer_type_x,初回診断日,治療薬,治験薬開始日,Stage,treatment_line,No,shibaki_organ_label,shibaki_cancer_type_y,shibaki_cancer_type_label,age
+4255992,0b_Ll0p,1.0,2018-09-13,20170118,20221124,1.0,1950-05-24,1.0,膀胱がん,urotherial carcinoma,2001/5/15,Lembatinib/Pembrolizumab,2017/1/13,Recurrence,6.0,573,Lymph node,Bladder cancer,Bladder cancer,68
+5653886,2ZR_0GaB,1.0,2016-08-05,20160629,20221124,0.0,1965-07-31,1.0,乳がん,Breast,2011/1/1,DS-5573,2016/6/30,Recurrence,8.0,481,Lung,Breast cancer,Breast cancer,51
+5633486,2ZR_0rw0,1.0,2020-05-12,20200416,20221124,0.0,1969-05-14,0.0,脂肪肉腫,Sarcoma,2008/6/19,MDM2inhibitor,2020/4/17,IV,3.0,475,Others,Sarcoma,Sarcoma,51
+5678412,2ZR_2bx4,1.0,2019-03-18,20190124,20221124,0.0,1957-04-12,0.0,胸腺がん,Thymus tumor,2014/11/9,TIM-3/PD-L1,2019/1/24,IV,4.0,451,Pleura,Thymus tumor,Thymus tumor,61
+5665299,2ZR_3Z7b,1.0,2019-06-12,20190422,20221124,1.0,1978-04-26,1.0,脂肪肉腫,Sarcoma,2014/6/27,MDM2inhibitor,2019/4/23,IV,4.0,431,Muscle,Sarcoma,Sarcoma,41
+5607515,2ZR_74v9,1.0,2017-02-24,20170203,20221124,1.0,1946-05-31,1.0,尿管がん,urotherial carcinoma,2001/1/1,GDC0919/Atezo,2017/2/3,IV,2.0,402,Lymph node,Renal pelvis and ureter cancer,Renal pelvis and ureter cancer,70
+5696259,2ZR_7VAqq,1.0,2019-06-25,20190513,20221124,0.0,1950-08-20,0.0,卵巣がん,Gyne,2015/1/1,PD-L1,2019/5/14,IV,6.0,387,Lung,Ovarian cancer,Ovarian cancer,68
+5688281,2ZR_AddEr,1.0,2017-04-13,20170321,20221124,1.0,1950-08-11,0.0,肺がん,Lung cancer,2015/1/26,GDC0919/Atezo,2017/3/22,IV,4.0,375,Lymph node,Lung cancer,Lung cancer,66
+5632293,2ZR_BAGO,1.0,2018-09-20,20180611,20221124,1.0,1976-08-29,0.0,結腸がん,Colorectal,2014/6/23,TAK931,2018/6/12,IV,5.0,367,Lung,Colorectal cancer,Colorectal cancer,42
+5619793,2ZR_BXYq,1.0,2019-10-23,20190924,20221124,0.0,1954-12-07,0.0,小腸NET,NEN,2012/11/21,AxlMer/PD-1,2019/9/26,IV,3.0,343,Liver,GIST,GIST,64
+5623731,2ZR_D52w,1.0,2018-10-12,20170626,20221124,1.0,1973-11-01,1.0,胸腺がん,Thymus tumor,2012/3/23,S-1,2018/7/21,IV,7.0,328,Pleura,Thymus tumor,Thymus tumor,44
+5674158,2ZR_dd15,1.0,2018-04-23,20180423,20221124,1.0,1962-09-25,0.0,SFT,SFT,2014/12/2,BI754091,2024/4/24,Recurrence,3.0,11,Lymph node,SFT,SFT,55
+5618258,2ZR_dl5A,1.0,2017-05-16,20170403,20221124,0.0,1960-03-05,0.0,原発不明がん,CUP,2014/4/30,ASLAN001,2017/4/4,IV,3.0,1,Thyroid,Cancer of unknown primary,Cancer of unknown primary,57
+5674131,2ZR_Dq5L,1.0,2016-06-06,20160426,20221124,0.0,1948-12-08,1.0,胆管細胞がん,Biliary tract,2014/10/1,E7090,2016/5/6,IV,3.0,306,Lung,Biliary tract cancer,Biliary tract cancer,67
+5613931,2ZR_DVa9,1.0,2017-12-15,20171106,20221124,0.0,1971-08-18,0.0,乳がん,Breast,2013/2/16,INCB,2017/11/8,IV,7.0,317,Lung,Breast cancer,Breast cancer,46
+5682002,2ZR_e84x,1.0,2016-12-05,20161014,20221124,1.0,1955-12-07,0.0,中咽頭がん,HN,2014/6/6,Avelumab/PF05082566,2016/10/17,IV,4.0,72,Lymph node,Head and neck cancer,Head and neck cancer,61
+5660777,2ZR_ErvL,1.0,2019-08-05,20170301,20221124,0.0,1949-07-18,1.0,尿路上皮がん,urotherial carcinoma,2014/11/1,JZHB,2019/8/14,IV,6.0,295,Thyroid,Renal pelvis and ureter cancer,Renal pelvis and ureter cancer,70
+5648602,2ZR_eX6Y,1.0,2017-11-07,20170930,20221124,0.0,1972-06-13,1.0,乳がん,Breast,2014/5/15,REGN2810,2017/10/2,IV,7.0,30,Lymph node,Breast cancer,Breast cancer,45
+5680719,2ZR_g20A,1.0,2019-09-20,20190826,20221124,0.0,1948-02-04,1.0,肺がん,Lung cancer,1996/9/4,TIGIT,2019/8/27,IV,10.0,89,Lymph node,Lung cancer,Lung cancer,71
+5641250,2ZR_GnGk,1.0,2017-01-26,20161212,20221124,0.0,1969-04-05,0.0,膀胱がん,urotherial carcinoma,2013/6/25,,,IV,3.0,282,Liver,Bladder cancer,Bladder cancer,47
+5637678,2ZR_k5rD,1.0,2016-01-06,20160106,20221124,1.0,1958-07-07,1.0,食道がん,Esophageal,2014/7/4,KW0761/ONO4538,2016/1/7,Recurrence,2.0,74,Subcutaneous tissue,Esophageal cancer,Esophageal cancer,57
+5613388,2ZR_KL0J,1.0,2018-02-22,20180109,20221124,0.0,1961-01-19,1.0,子宮内膜がん,Gyne,2014/3/31,MoRAb202,2018/1/10,III,3.0,273,Lymph node,Endometrial cancer,Endometrial cancer,57
+5615704,2ZR_Lwg0,1.0,2018-06-27,20180521,20221124,0.0,1960-01-06,1.0,肺がん,Lung cancer,2014/4/11,DS1062,2018/5/23,IV,5.0,269,Lymph node,Lung cancer,Lung cancer,58
+5699916,2ZR_O6Y2L,1.0,2016-06-14,20160229,20221124,0.0,1962-01-06,0.0,脂肪肉腫,Sarcoma,2013/9/10,HDM201,2016/3/1,Recurrence,2.0,261,Lung,Sarcoma,Sarcoma,54
+5694485,2ZR_pMJQx,1.0,2020-02-27,20190514,20221124,0.0,1947-10-13,0.0,肺がん,Lung cancer,2015/2/5,INCMGA00012,2019/9/10,IV,5.0,52,Lymph node,Lung cancer,Lung cancer,72
+5617464,2ZR_qDWZ,1.0,2016-04-07,20160113,20221124,1.0,1945-06-17,1.0,胆嚢がん,Biliary tract,2014/3/19,MEDI4736/Tremilimumab,2016/1/14,IV,4.0,55,Peritoneum,Biliary tract cancer,Biliary tract cancer,70
+5649013,2ZR_QMrD,1.0,2019-04-24,20170424,20221124,1.0,1953-10-29,1.0,胸腺腫,Thymus tumor,2010/5/1,メレスチニブ,2017/4/25,IV,3.0,242,Lymph node,Thymus tumor,Thymus tumor,65
+5647789,2ZR_R9aj,1.0,2017-02-22,20170116,20221124,1.0,1955-07-13,0.0,胃食道接合部がん,Gastric,2014/9/19,DS1123a,2017/1/17,IV,4.0,129,Thyroid,Esophageal cancer,Esophageal cancer,61
+5625301,2ZR_RLEP,1.0,2016-12-14,20161109,20221124,0.0,1949-07-20,0.0,胆管がん,Biliary tract,2010/12/25,E7090,2016/11/17,IV,3.0,1352,Lung,Biliary tract cancer,Biliary tract cancer,67
+5601983,2ZR_V11V,1.0,2016-05-31,20160531,20221124,1.0,1951-02-09,0.0,直腸がん,Colorectal,2014/4/1,LTT462,2016/6/1,IV,3.0,1326,Subcutaneous tissue,Colorectal cancer,Colorectal cancer,65
+5651395,2ZR_vjr8,1.0,2016-09-16,20160620,20221124,0.0,1971-01-12,0.0,乳がん,Breast,2005/1/1,DS5573a,2016/6/21,Recurrence,5.0,1111,Subcutaneous tissue,Breast cancer,Breast cancer,45
+5655439,2ZR_VlPK,1.0,2016-07-07,20160520,20221124,0.0,1978-08-15,0.0,蜂巣状軟部肉腫,Sarcoma,2013/3/21,TAS115,2016/5/23,IV,2.0,1135,Lung,Sarcoma,Sarcoma,37
+5689821,2ZR_w8PGG,1.0,2021-03-29,20210203,20221124,0.0,1964-04-17,1.0,乳がん,Breast,2013/10/2,,,IV,10.0,1131,Liver,Breast cancer,Breast cancer,56
+5659221,2ZR_wzlx,1.0,2022-08-03,20200821,20221124,0.0,1950-04-11,1.0,肺がん,Lung cancer,2014/10/1,CTX+Ram,2022/5/25,IV,6.0,1066,Lymph node,Lung cancer,Lung cancer,72
+5664128,2ZR_xQ5O,1.0,2016-05-19,20160125,20221124,0.0,1967-09-20,0.0,膵がん,Pancreas,2016/10/14,KW0716/ONO4538,2016/1/27,IV,3.0,1112,Lymph node,Pancreatic cancer,Pancreatic cancer,48
+5672198,2ZR_ZvBL,1.0,2020-09-01,20200727,20221124,1.0,1964-09-25,0.0,中咽頭癌,HN,2014/1/1,DS7300,2020/7/28,IV,6.0,1132,Lymph node,Head and neck cancer,Head and neck cancer,55
+5558255,3wp_3YbO,1.0,2017-07-03,20161104,20221124,1.0,1966-07-29,1.0,MPM,MPM,2013/1/1,BAY94-9343,2016/11/7,Recurrence,3.0,1063,Lymph node,Malignant pleuralmethotelioma,Malignant pleuralmethotelioma,50
+5517435,3wp_42bp,1.0,2019-01-30,20180914,20221124,1.0,1953-07-09,1.0,肺がん,Lung cancer,2013/2/1,DS1062a,2018/9/18,IV,6.0,1057,Lymph node,Lung cancer,Lung cancer,65
+5528135,3wp_4978,1.0,2016-01-04,20160104,20221124,1.0,1981-06-10,0.0,神経芽細胞腫,Neuroblastoma,2013/2/1,TAS116,2016/1/5,IV,3.0,965,Lymph node,Neuroblastoma,Neuroblastoma,34
+5528267,3wp_6908,1.0,2017-03-30,20170330,20221124,1.0,1948-02-06,0.0,膵がん,Pancreas,2015/3/1,GDC0919/Atezo,2017/4/3,Recurrence,3.0,963,Others,Pancreatic cancer,Pancreatic cancer,69
+5539838,3wp_82JL,1.0,2017-02-22,20170221,20221124,1.0,1955-10-31,0.0,メラノーマ,Skin,2013/4/1,TBI1301,2017/2/27,IV,5.0,959,Peritoneum,Skin cancer,Skin cancer,61
+5577837,3wp_A0vd,1.0,2018-12-05,20181205,20221124,1.0,1966-08-01,0.0,肺がん,Lung cancer,2013/11/1,TAS116/Nivo,2018/12/12,IV,4.0,958,Lung,Lung cancer,Lung cancer,52
+5557437,3wp_ABBr,1.0,2020-01-20,20191202,20221124,1.0,1950-08-21,1.0,直腸がん,Colorectal,2013/9/24,TN0155/Riboiclib,2019/12/3,Recurrence,2.0,944,Lung,Colorectal cancer,Colorectal cancer,69
+5511275,3wp_D3l2,1.0,2016-11-14,20160125,20221124,1.0,1956-09-17,3.0,脂肪肉腫,Sarcoma,2013/1/17,,,Recurrence,4.0,943,Adrenal gland,Sarcoma,Sarcoma,60
+5508444,3wp_KO80,1.0,2020-09-18,20200721,20221124,1.0,1955-12-13,0.0,大腸がん,Colorectal,2012/12/1,GSK-ICOS,2020/7/22,IV,5.0,835,Lung,Colorectal cancer,Colorectal cancer,64
+5501245,3wp_RlL,1.0,2020-01-30,20170405,20221124,1.0,1960-09-23,1.0,胸腺カルチノイド,NEN,2012/11/1,LXH254,2016/4/6,IV,1.0,771,Lymph node,Thymus tumor,Thymus tumor,59
+5570191,3wp_rrgg,1.0,2016-02-18,20160118,20221124,0.0,1954-08-05,1.0,膵がん,Pancreas,2013/10/1,KW0716/ONO4538,2016/1/19,IV,3.0,637,Lymph node,Pancreatic cancer,Pancreatic cancer,61
+5545447,3wp_rYZA,1.0,2016-11-28,20161012,20221124,1.0,1947-01-30,1.0,食道がん,Esophageal,2013/6/28,MEDI4736/Tremilimumab,2016/10/13,IV,6.0,700,Lung,Esophageal cancer,Esophageal cancer,69
+5578639,3wp_V0Pd,1.0,2020-03-09,20200121,20221124,1.0,1948-04-04,0.0,肺がん,Lung cancer,2013/12/19,DS1062a,2020/1/22,IV,3.0,759,Lymph node,Lung cancer,Lung cancer,71
+5562007,3wp_vWZx,1.0,2016-03-24,20160222,20221124,0.0,1973-01-31,1.0,乳がん,Breast,2013/9/1,DS5573a,2016/2/23,Recurrence,5.0,713,Lymph node,Breast cancer,Breast cancer,43
+8746974,50q_J8ev,1.0,2019-03-13,20161212,20221124,1.0,1968-06-12,0.0,口蓋歯肉がん,HN,2007/2/1,E7389/Nivo,2019/2/6,Recurrence,6.0,623,Lung,Head and neck cancer,Head and neck cancer,50
+8717745,50q_R6KL,1.0,2017-05-08,20170215,20221124,1.0,1970-05-17,1.0,肺がん,Lung cancer,2012/11/2,E7080/Pembrolizumab,2017/2/16,Recurrence,2.0,616,Lymph node,Lung cancer,Lung cancer,47
+5964342,7Vw_0vY9,1.0,2018-04-12,20180227,20221124,0.0,1972-07-11,0.0,大腸がん,Colorectal,2012/9/1,RO6958688,2018/2/28,IV,10.0,578,Lung,Colorectal cancer,Colorectal cancer,45
+5913624,7Vw_1eDP,4.0,2020-11-18,20201005,20221124,1.0,1950-04-13,0.0,小腸がん,small intestine,2016/12/9,VEGFAb+PD1Ab,2020/10/7,Recurrence,3.0,1366,Liver,Small intestine cancer,Small intestine cancer,70
+5953511,7Vw_3agL,4.0,2021-03-02,20210202,20221124,1.0,1981-05-02,0.0,胸腺がん,Thymus tumor,2017/6/1,ONO7475/Nivo,2021/2/3,IV,3.0,1436,Liver,Thymus tumor,Thymus tumor,39
+5993199,7Vw_3wAlL,4.0,2017-12-26,20171106,20221124,1.0,1958-05-04,1.0,食道がん,Esophageal,2015/11/14,E7389-LF,2017/11/8,IV,4.0,1458,Lung,Esophageal cancer,Esophageal cancer,59
+5973279,7Vw_4GG8,4.0,2017-08-15,20170815,20221124,1.0,1948-08-24,1.0,大腸がん,Colorectal,2014/1/1,ONO4578,2017/8/16,Recurrence,5.0,1461,Liver,Colorectal cancer,Colorectal cancer,69
+5922887,7Vw_5pdG,4.0,2018-10-30,20180921,20221124,1.0,1976-01-15,1.0,肺がん,Lung cancer,2017/3/13,DS1062a,2018/9/25,IV,5.0,1503,Lung,Lung cancer,Lung cancer,42
+5928974,7Vw_J73k,4.0,2017-07-04,20170606,20221124,1.0,1970-06-08,0.0,膵がん,Pancreas,2014/6/1,ONO45878,2017/6/7,IV,5.0,1524,Liver,Pancreatic cancer,Pancreatic cancer,47
+5942934,7Vw_kang,4.0,2020-01-17,20191126,20221124,1.0,1956-01-26,0.0,大腸腫瘍,Colorectal,2017/2/15,JZHB,2019/11/27,Recurrence,2.0,1648,Liver,Colorectal cancer,Colorectal cancer,64
+5915392,7Vw_Lj9R,4.0,2020-01-30,20191213,20221124,0.0,1947-10-26,0.0,メラノーマ,Skin,2016/10/1,DKY709,2019/12/16,Recurrence,3.0,1539,Liver,Skin cancer,Skin cancer,72
+5987229,7Vw_lQQGb,4.0,2018-09-03,20171108,20221124,0.0,1963-03-14,0.0,卵巣顆粒膜細胞腫,Gyne,2004/4/15,TAK931,2018/2/27,Recurrence,6.0,1653,Lung,Ovarian cancer,Ovarian cancer,55
+5982022,7Vw_n5jY,4.0,2019-07-18,20190517,20221124,1.0,1968-07-10,1.0,胸腺がん,Thymus tumor,2013/4/26,TIM3/PDL1,2019/5/20,Recurrence,4.0,1663,Lymph node,Thymus tumor,Thymus tumor,51
+5951160,7Vw_O2a3,4.0,2017-08-03,20170614,20221124,1.0,1944-05-07,0.0,食道がん,Esophageal,2015/11/2,TIGIT,2017/6/15,Recurrence,3.0,1550,Lung,Esophageal cancer,Esophageal cancer,73
+5978661,7Vw_P03G,4.0,2017-10-31,20170904,20221124,1.0,1979-08-23,1.0,胸腺がん,Thymus tumor,2016/12/1,TAK931,2017/9/5,IV,2.0,1576,Lung,Thymus tumor,Thymus tumor,38
+5999413,7Vw_Qzgke,4.0,2017-12-25,20171113,20221124,1.0,1943-02-11,1.0,食道がん,Esophageal,2016/3/9,Cabiralizumab,2017/11/14,IV,3.0,1601,Liver,Esophageal cancer,Esophageal cancer,74
+5992001,7Vw_RPEGM,4.0,2019-12-16,20190903,20221124,1.0,1962-09-03,1.0,肺がん,Lung cancer,2017/9/22,DS1062a,2019/9/4,IV,4.0,1611,Pleura,Lung cancer,Lung cancer,57
+5902045,7Vw_RPRA,4.0,2017-04-11,20170314,20221124,0.0,1958-04-04,0.0,肝内胆管がん,Biliary tract,2017/3/13,TAK931,2017/3/15,Recurrence,3.0,1614,Liver,Biliary tract cancer,Biliary tract cancer,59
+5967601,7Vw_Rx0r,4.0,2020-04-27,20191206,20221124,1.0,1979-01-17,0.0,胸腺腫,Thymus tumor,2017/6/14,CTX712,2020/5/19,IV,3.0,1628,Liver,Thymus tumor,Thymus tumor,41
+5953707,7Vw_vnWn,4.0,2017-07-13,20170620,20221124,0.0,1954-07-18,1.0,結腸がん,Colorectal,2013/3/15,ERK inhibitor,2017/6/21,Recurrence,5.0,1664,Lung,Colorectal cancer,Colorectal cancer,63
+3886808,8Y_Yegd0,4.0,2020-09-04,20200804,20221124,1.0,1949-05-18,1.0,前立腺がん,Prostate,2002/4/24,R0 FAP,2020/8/5,Recurrence,9.0,1810,Liver,Prostate cancer,Prostate cancer,71
+5386659,aMg_7VXdW,4.0,2016-02-09,20160118,20221124,1.0,1947-11-23,1.0,肝細胞がん,HCC,2008/2/19,PI3K/mTOR,2016/1/19,Recurrence,4.0,2211,Liver,Hepatocellular carcinoma,Others,68
+5859956,dWD_2vlW,4.0,2017-04-24,20170113,20221124,1.0,1948-02-13,1.0,胸腺がん,Thymus tumor,2007/1/1,Lenvatinib,2017/4/24,Recurrence,5.0,2218,Liver,Thymus tumor,Thymus tumor,69
+5855926,dWD_9jgK,4.0,2016-08-26,20160826,20221124,1.0,1953-07-02,0.0,胃がん,Gastric,2014/12/10,DS1123a,2016/8/28,IV,4.0,2254,Liver,Gastric cancer,Gastric cancer,63
+5886970,dWD_9Z6kE,4.0,2017-07-28,20170306,20221124,1.0,1952-06-22,1.0,膵がん,Pancreas,2014/3/18,BMS986205,2017/8/8,Recurrence,5.0,2251,Adrenal gland,Pancreatic cancer,Pancreatic cancer,65
+5809134,dWD_kQZd,4.0,2017-03-06,20160315,20221124,1.0,1938-07-19,3.0,前立腺がん,Prostate,2006/11/1,エチニルエストラジオール,2016/12/19,IV,10.0,2370,Lymph node,Prostate cancer,Prostate cancer,78
+5830532,dWD_Mpr0,4.0,2016-08-15,20160715,20221124,0.0,1957-08-14,0.0,膵がん,Pancreas,2015/9/16,LTT462,2016/7/19,IV,4.0,2275,Pancrease,Pancreatic cancer,Pancreatic cancer,59
+5873185,dWD_plQq,4.0,2017-04-06,20161130,20221124,0.0,1949-04-14,1.0,MPM,MPM,2009/11/1,INCB/Pembro,2016/12/1,IV,2.0,2408,Pleura,Malignant pleuralmethotelioma,Malignant pleuralmethotelioma,68
+5832713,dWD_QRLX,4.0,2016-08-24,20160712,20221124,0.0,1958-12-06,1.0,卵巣がん,Gyne,2008/3/1,M7824,2016/7/13,Recurrence,7.0,2292,Lymph node,Ovarian cancer,Ovarian cancer,57
+5812364,dWD_qwKW,4.0,2017-09-04,20160906,20221124,1.0,1968-12-18,0.0,肺がん,Lung cancer,2016/3/10,S-1,2017/1/16,IV,3.0,2449,Lymph node,Lung cancer,Lung cancer,48
+5876265,dWD_wrGk,4.0,2021-02-01,20200109,20221124,1.0,1969-08-02,0.0,メラノーマ,Skin,2016/9/26,DTIC,2020/12/7,Recurrence,2.0,2486,Subcutaneous tissue,Skin cancer,Skin cancer,51
+6311555,gQ8_3kJa,4.0,2020-07-22,20200323,20221124,0.0,1966-06-28,1.0,子宮頸がん,Gyne,2019/3/25,BI836880/BI754091,2020/8/4,IV,4.0,2540,Liver,Cervical cancer,Cervical cancer,54
+6303099,gQ8_3wE8,4.0,2020-12-16,20200325,20221124,1.0,1977-05-27,1.0,胸腺がん,Thymus tumor,2019/9/25,E7389LF/Nivo,2020/3/26,IV,2.0,2544,Anterior mediastinum,Thymus tumor,Thymus tumor,43
+6304443,gQ8_56Lq,4.0,2021-04-26,20200410,20221124,1.0,1956-04-26,0.0,NET,NEN,2003/2/12,ONO7475,2020/10/21,Recurrence,8.0,2546,Liver,Colorectal cancer,Colorectal cancer,65
+6368638,gQ8_8b84,4.0,2020-11-20,20201026,20221124,1.0,1962-08-23,0.0,十二指腸乳頭部がん,Biliary tract,2017/10/10,CBA1205,2020/10/27,Recurrence,5.0,2564,Liver,Biliary tract cancer,Biliary tract cancer,58
+6344763,gQ8_gAO4,4.0,2021-02-15,20210215,20221124,0.0,1948-01-10,1.0,胃がん,Gastric,2019/1/1,Nivo/E7389LF,2021/2/2,Recurrence,3.0,2619,Liver,Gastric cancer,Gastric cancer,73
+6315844,gQ8_KnnO,4.0,2020-07-20,20200604,20221124,1.0,1957-06-04,1.0,膵がん,Pancreas,2019/1/1,BI836880/BI754091,2020/6/8,Recurrence,4.0,2568,Liver,Pancreatic cancer,Pancreatic cancer,63
+6389741,gQ8_pMnV8,4.0,2022-02-24,20210830,20221124,0.0,1965-08-05,1.0,子宮体がん,Gyne,2019/7/26,E7389/Lenva,2021/9/2,Recurrence,3.0,2625,Lymph node,Endometrial cancer,Endometrial cancer,56
+6396747,gQ8_r4Ga7,4.0,2021-06-08,20210215,20221124,1.0,1953-04-01,0.0,脂肪肉腫,sarcoma,2020/1/28,ABBV927,2021/2/16,Recurrence,3.0,2628,Plevic,Sarcoma,Sarcoma,68
+6333028,gQ8_xvgV,4.0,2021-02-10,20200616,20221124,1.0,1966-12-31,0.0,肺がん,Lung cancer,2018/11/1,ABBV155,2021/1/6,IV,6.0,2629,Pleura,Lung cancer,Lung cancer,54
+6354998,gQ8_Zk3b,4.0,2022-03-09,20200916,20221124,0.0,1952-04-28,0.0,大腸がん,Colorectal,2017/1/1,ABBV-CLS-484,2021/12/15,IV,6.0,2603,Lung,Colorectal cancer,Colorectal cancer,69
+6004067,O6q_6ld8,4.0,2018-11-13,20180219,20221124,0.0,1947-11-25,1.0,原発不明がん,CUP,2013/12/13,TAS0313,2018/2/20,IV,4.0,1828,Lung,Cancer of unknown primary,Cancer of unknown primary,71
+6043259,O6q_70w7,4.0,2018-06-27,20180406,20221124,1.0,1962-09-29,0.0,Vater乳頭部がん,Biliary tract,2017/3/1,PM01183,2018/4/9,Recurrence,2.0,1874,Liver,Biliary tract cancer,Biliary tract cancer,55
+6050182,O6q_8JEk,4.0,2020-06-29,20200529,20221124,0.0,1943-07-18,2.0,子宮頸がん,Gyne,2016/8/25,ABBV151,2020/6/1,Recurrence,2.0,1884,Lymph node,Cervical cancer,Cervical cancer,77
+6028764,O6q_qVJQ,4.0,2018-04-23,20180207,20221124,1.0,1955-08-16,1.0,膵がん,Pancreas,2016/8/19,BMS986205/Nivo,2018/2/8,Recurrence,3.0,2103,Pancrease,Pancreatic cancer,Pancreatic cancer,62
+6089445,O6q_RPRwX,4.0,2019-11-19,20190116,20221124,1.0,1957-06-21,1.0,食道がん,Esophageal,2018/6/26,,,Recurrence,2.0,2013,Lymph node,Esophageal cancer,Esophageal cancer,62
+6143709,PaR_aw9X,4.0,2020-12-25,20200918,20221124,1.0,1973-07-26,0.0,大腸がん,Colorectal,2018/12/21,BAY1895344,2020/9/23,Recurrence,4.0,2120,Liver,Colorectal cancer,Colorectal cancer,47
+6193331,PaR_DpzgV,4.0,2020-09-18,20200812,20221124,1.0,1960-12-27,1.0,頭部脂腺がん,Skin,2019/5/21,ASP1948,2020/8/13,Recurrence,2.0,2111,Lymph node,Skin cancer,Skin cancer,59
+6439471,qla_bdVg,4.0,2022-10-14,20210531,20221124,1.0,1971-10-20,0.0,腎細胞がん,RCC,2020/1/1,SOF10/Atezo,2021/6/1,IV,3.0,2654,Liver,Renal cell carcinoma,Others,51
+5799597,Qzr_aMO89,4.0,2016-04-06,20160210,20221124,1.0,1952-03-04,1.0,膵がん,Pancreas,2011/9/1,KW0761/ONO4538,2016/2/12,Recurrence,4.0,2174,Pancrease,Pancreatic cancer,Pancreatic cancer,64

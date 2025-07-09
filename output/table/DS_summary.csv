@@ -1,0 +1,42 @@
+﻿Organ,Count,Mean,Median,Q1,Q3
+All Lesions,2477,0.75,0.79,0.68,0.85
+,,,,,
+Lung,982,0.71,0.73,0.63,0.81
+Liver,533,0.79,0.83,0.75,0.88
+Lymph node,493,0.76,0.8,0.7,0.87
+Subcutaneous tissue,134,0.81,0.84,0.79,0.88
+Pleura,108,0.66,0.72,0.57,0.8
+Peritoneum,100,0.77,0.84,0.72,0.87
+Urinary organs,45,0.84,0.87,0.8,0.92
+Adrenal gland,16,0.8,0.83,0.7,0.9
+Others,15,0.74,0.79,0.6,0.86
+Thyroid,13,0.73,0.74,0.66,0.81
+Pancrease,13,0.79,0.83,0.72,0.85
+Plevic,10,0.84,0.9,0.78,0.92
+Muscle,10,0.74,0.79,0.63,0.89
+Anterior mediastinum,5,0.79,0.88,0.78,0.88
+,,,,,
+Colorectal cancer,449,0.77,0.8,0.7,0.86
+Esophageal cancer,247,0.75,0.78,0.68,0.84
+Lung cancer,205,0.73,0.76,0.66,0.84
+Thymus tumor,203,0.71,0.76,0.62,0.83
+Sarcoma,195,0.66,0.67,0.59,0.75
+Pancreatic cancer,189,0.78,0.82,0.71,0.88
+Breast cancer,153,0.71,0.74,0.63,0.81
+Cervical cancer,133,0.82,0.84,0.79,0.88
+Ovarian cancer,100,0.79,0.83,0.75,0.87
+Neuroblastoma,85,0.69,0.72,0.66,0.79
+Skin cancer,76,0.82,0.84,0.78,0.88
+Small intestine cancer,69,0.81,0.83,0.79,0.86
+Biliary tract cancer,63,0.76,0.82,0.72,0.88
+Prostate cancer,56,0.79,0.82,0.76,0.86
+Cancer of unknown primary,56,0.8,0.84,0.71,0.9
+Malignant pleuralmethotelioma,42,0.76,0.82,0.71,0.85
+Renal pelvis and ureter cancer,32,0.71,0.75,0.66,0.78
+Gastric cancer,27,0.82,0.85,0.77,0.87
+GIST,25,0.62,0.68,0.52,0.75
+Head and neck cancer,18,0.8,0.83,0.77,0.88
+SFT,17,0.72,0.73,0.65,0.86
+Bladder cancer,15,0.7,0.72,0.64,0.83
+Endometrial cancer,12,0.76,0.8,0.7,0.84
+Others,10,0.85,0.85,0.78,0.9
