@@ -429,30 +429,48 @@ unique_organ_sorted = organ_counts.index.tolist()
 df_box["shibaki_organ_label"] = pd.Categorical(df_box["shibaki_organ_label"], categories=unique_organ_sorted, ordered=True)
 
 # 描画
-fig, ax1 = plt.subplots(figsize=(20, 10))
+fig, ax1 = plt.subplots(figsize=(30, 10))
 
 # DICE boxplot（左Y軸）
 positions = range(len(unique_organ_sorted))
 dice_data = [df_box[df_box["shibaki_organ_label"] == organ]["dice"].dropna() for organ in unique_organ_sorted]
-bpl = ax1.boxplot(dice_data, positions=positions, widths=0.35, patch_artist=True,
-                  boxprops=dict(facecolor="#99C7C3"), showfliers=False )
-ax1.set_ylabel("DICE Score", fontsize=14)
+bpl = ax1.boxplot(
+    dice_data,
+    positions=positions, 
+    widths=0.35, 
+    patch_artist=True,
+    boxprops=dict(facecolor="#99C7C3"), 
+    showfliers=False,
+    whiskerprops=dict(linestyle="none"),
+    capprops=dict(linestyle='none'),
+)
+ax1.set_ylabel("DICE Score", fontsize=20)
 ax1.set_ylim(0, 1)
+ax1.tick_params(axis='both', labelsize=20) 
 
 # MHD boxplot（右Y軸）
 ax2 = ax1.twinx()
 mhd_data = [df_box[df_box["shibaki_organ_label"] == organ]["MeanHD"].dropna() for organ in unique_organ_sorted]
-bpr = ax2.boxplot(mhd_data, positions=[p + 0.4 for p in positions], widths=0.35, patch_artist=True,
-                  boxprops=dict(facecolor="#F4DF6E"), showfliers=False )
-ax2.set_ylabel("Mean Hausdorff Distance", fontsize=14)
+bpr = ax2.boxplot(
+    mhd_data,
+    positions=[p + 0.4 for p in positions],
+    widths=0.35,
+    patch_artist=True,
+    boxprops=dict(facecolor="#F4DF6E"),
+    showfliers=False,
+    whiskerprops=dict(linestyle="none"),
+    capprops=dict(linestyle='none'),
+)
+ax2.set_ylabel("Mean Hausdorff Distance", fontsize=20)
 ax2.set_ylim(5, 0)  # 逆軸
+ax2.tick_params(axis='y', labelsize=20)
 
 # X軸
 ax1.set_xticks([p + 0.2 for p in positions])
-ax1.set_xticklabels(unique_organ_sorted, rotation=45, fontsize=12)
+ax1.set_xticklabels(unique_organ_sorted, rotation=-60, fontsize=25)
 
 # タイトル
-plt.title("Box plot of DICE and Mean HD by Organ", fontsize=16, fontweight="bold")
+plt.title("Box plot of DICE and Mean HD by Organ", fontsize=20, fontweight="bold")
 
 # 凡例
 
@@ -479,30 +497,48 @@ unique_cancer_type_sorted = cancer_type_counts.index.tolist()
 df_box["shibaki_cancer_type_label"] = pd.Categorical(df_box["shibaki_cancer_type_label"], categories=unique_cancer_type_sorted, ordered=True)
 
 # 描画
-fig, ax1 = plt.subplots(figsize=(20, 10))
+fig, ax1 = plt.subplots(figsize=(30, 10))
 
 # DICE boxplot（左Y軸）
 positions = range(len(unique_cancer_type_sorted))
 dice_data = [df_box[df_box["shibaki_cancer_type_label"] == cancer_type]["dice"].dropna() for cancer_type in unique_cancer_type_sorted]
-bpl = ax1.boxplot(dice_data, positions=positions, widths=0.35, patch_artist=True,
-                  boxprops=dict(facecolor="#99C7C3"), showfliers=False )
-ax1.set_ylabel("DICE Score", fontsize=14)
+bpl = ax1.boxplot(
+    dice_data,
+    positions=positions,
+    widths=0.35,
+    patch_artist=True,
+    boxprops=dict(facecolor="#99C7C3"),
+    showfliers=False,
+    whiskerprops=dict(linestyle="none"),
+    capprops=dict(linestyle='none'),
+)
+ax1.set_ylabel("DICE Score", fontsize=20)
 ax1.set_ylim(0, 1)
+ax1.tick_params(axis='both', labelsize=20) 
 
 # MHD boxplot（右Y軸）
 ax2 = ax1.twinx()
 mhd_data = [df_box[df_box["shibaki_cancer_type_label"] == cancer_type]["MeanHD"].dropna() for cancer_type in unique_cancer_type_sorted]
-bpr = ax2.boxplot(mhd_data, positions=[p + 0.4 for p in positions], widths=0.35, patch_artist=True,
-                  boxprops=dict(facecolor="#F4DF6E"), showfliers=False )
-ax2.set_ylabel("Mean Hausdorff Distance", fontsize=14)
+bpr = ax2.boxplot(
+    mhd_data,
+    positions=[p + 0.4 for p in positions],
+    widths=0.35,
+    patch_artist=True,
+    boxprops=dict(facecolor="#F4DF6E"),
+    showfliers=False,
+    whiskerprops=dict(linestyle="none"),
+    capprops=dict(linestyle='none'),
+)
+ax2.set_ylabel("Mean Hausdorff Distance", fontsize=20)
 ax2.set_ylim(5, 0)  # 逆軸
+ax2.tick_params(axis='y', labelsize=20)
 
 # X軸
 ax1.set_xticks([p + 0.2 for p in positions])
-ax1.set_xticklabels(unique_cancer_type_sorted, rotation=45, fontsize=12)
+ax1.set_xticklabels(unique_cancer_type_sorted, rotation=-60, fontsize=25)
 
 # タイトル
-plt.title("Box plot of DICE and Mean HD by Cancer type", fontsize=16, fontweight="bold")
+plt.title("Box plot of DICE and Mean HD by Cancer type", fontsize=20, fontweight="bold")
 
 # 凡例
 import matplotlib.patches as mpatches
