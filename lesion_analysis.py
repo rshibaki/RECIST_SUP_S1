@@ -469,14 +469,17 @@ ax2.tick_params(axis='y', labelsize=20)
 ax1.set_xticks([p + 0.2 for p in positions])
 ax1.set_xticklabels(unique_organ_sorted, rotation=-60, fontsize=25)
 
+# cancer type ごとに区切り線を追加（最後のカテゴリの右端は不要）
+for p in positions[:-1]:
+    ax1.axvline(p + 0.7, color="gray", linestyle="--", linewidth=0.7, alpha=0.5)
+
 # タイトル
 plt.title("Box plot of DICE and Mean HD by Organ", fontsize=20, fontweight="bold")
 
-# 凡例
-
-dice_patch = mpatches.Patch(color="#99C7C3", label='DICE')
-mhd_patch = mpatches.Patch(color="#F4DF6E", label='Mean HD')
-plt.legend(handles=[dice_patch, mhd_patch], loc="upper right")
+# # 凡例
+# dice_patch = mpatches.Patch(color="#99C7C3", label='DICE')
+# mhd_patch = mpatches.Patch(color="#F4DF6E", label='Mean HD')
+# plt.legend(handles=[dice_patch, mhd_patch], loc="upper right")
 
 plt.tight_layout()
 plt.savefig(save_figure_path + "/boxplot_DICE_MHD_by_organ.png", dpi=300)
@@ -540,11 +543,16 @@ ax1.set_xticklabels(unique_cancer_type_sorted, rotation=-60, fontsize=25)
 # タイトル
 plt.title("Box plot of DICE and Mean HD by Cancer type", fontsize=20, fontweight="bold")
 
-# 凡例
-import matplotlib.patches as mpatches
-dice_patch = mpatches.Patch(color="#99C7C3", label='DICE')
-mhd_patch = mpatches.Patch(color="#F4DF6E", label='Mean HD')
-plt.legend(handles=[dice_patch, mhd_patch], loc="upper right")
+# cancer type ごとに区切り線を追加（最後のカテゴリの右端は不要）
+for p in positions[:-1]:
+    ax1.axvline(p + 0.7, color="gray", linestyle="--", linewidth=0.7, alpha=0.5)
+
+
+# # 凡例
+# import matplotlib.patches as mpatches
+# dice_patch = mpatches.Patch(color="#99C7C3", label='DICE')
+# mhd_patch = mpatches.Patch(color="#F4DF6E", label='Mean HD')
+# plt.legend(handles=[dice_patch, mhd_patch], loc="upper right")
 
 plt.tight_layout()
 plt.savefig(save_figure_path + "/boxplot_DICE_MHD_by_cancer_type.png", dpi=300)
