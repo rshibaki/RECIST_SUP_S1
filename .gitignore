@@ -1,0 +1,6 @@
+
+#フォルダを無視
+data/png
+data/pred_aug_npz
+data/pred_npz
+
